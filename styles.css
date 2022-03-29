@@ -1,0 +1,51 @@
+body {
+  background-color: #133561;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #464343;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
+
+.dialog {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  transform: transition 1s ease;
+}
+
+.img-dialog {
+  max-width: 120px;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-cancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #464343;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
